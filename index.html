@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6796c8fa20.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+        .container{
+            background-color: #09101F;
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        span{
+            color: #4FC988;
+        }
+        ul{
+            list-style-type: none;
+             display: block;
+        
+        }
+        li{
+            float: left;
+        }
+        ul li a{
+           padding: 30px; 
+           text-decoration: none;
+           font-size: x-large;
+           color:white;
+           text-transform: uppercase;
+
+        }
+        ul li a:hover{
+            background-color: black;
+            text-align: center;
+            justify-content: center;
+        }
+        .one{
+            background-color: black;
+            background-image: url(/3d-render-black-hand-holding-golden-coin-money-removebg-preview.png) ;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 50%;
+            height: 70vh;
+            width: 100%; 
+            padding: 20px;
+        
+        }
+        .two{
+            color: white;
+            padding: 100px;
+            justify-content: space-between;
+            align-content: center;
+            font-size: xx-large;
+        }
+        img{
+            height: 50vh;
+            width: 100%;
+            padding: 20px;
+            background-position: right;
+           
+
+        }
+        .three{
+            font-size: 20px;
+            
+            
+        }
+        .four{
+            background-color:#f4f4f4 ;
+            color: black;
+            width: 15%;
+            height: 50px;
+            padding-top: 20px;
+            padding-left: 35px;
+            font-size: x-large;
+        }
+        .five{
+            background-color: #05080F;
+            height: 50vh;
+            padding: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+        .six{
+            padding: 30px;
+        }
+        .six h3{
+            font-size:40px ;
+            margin: 10px;
+        }
+        .six h4{
+            background-color: black;
+            width: 55%;
+            height: 50px;
+            padding-top: 25px;
+            padding-left: 40px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        .seven{
+            background-color: #f4f4f4;
+            height: 40vh;
+            /* width: -20%; */
+            padding-left: -500px;
+            
+        }
+        .eight{
+            background-color: #f4f4f4;
+            height: 70vh;
+            padding: 100px;
+            justify-content: center;
+            text-align: center;
+            font-size: l;
+        }
+        strong{
+            font-size: xx-large;
+        }
+        .nine{
+            display: block;
+            display: flex;
+            padding: 30px;
+            height: 100vh;
+            
+            
+        }
+        .up{
+            background-color: #4F78CA;
+            padding: 20px;
+            padding-top: 70px;
+            height: 20vh;
+            width: auto;   
+        }
+        .down{
+            background-color: #688BD2;
+            padding: 20px;
+            padding-top: 70px;
+            height: 20vh;
+            width: auto; 
+            color: white;  
+            
+        }
+        .form{
+            background-color: #B3C5E8;
+            padding: 20px;
+            padding-top: 70px;
+            height: 20vh;
+            width: auto;   
+        }
+        .ten{
+            background-color:#3D2B1f;
+            height: 20vh;
+            color: white;
+            font-size: xx-large;
+            text-align: center;
+            padding: 50px;
+        }
+        .ten h5{
+            padding: 20px;
+        }
+        .hire h6 a{
+            background-color: black;
+            padding: 10px;
+            font-size: x-large;
+            text-decoration: none;
+            width: 20%;
+            color:white;
+        }
+        .hire h6 a:hover{
+            background-color: rgba(128, 255, 0, 0.593);
+            color: white;
+        }
+        .con{
+            background-color: #000000;
+            height: 30vh;
+            text-align: center;
+            padding: 30px;
+        }
+        .con h1{
+            padding: 10px;
+            color: white;
+        }
+        .con p {
+            font-size: large;
+            color: #4F78CA;
+        }
+        @media screen and (max-width:600px){
+            li{
+                float: none;
+            }
+            ul li a:hover{
+            background-color: rgb(133, 18, 18);
+            background-size: 20px;
+            text-align: center;
+            display: block;
+            /* justify-content: center; */
+            
+        }
+        .two h2{
+            background-color: rgba(102, 12, 12, 0.612);
+            height: 15vh;
+            padding: 15px;
+            width: 50%;
+            color:white;
+            
+        }
+        .five{
+            display: block;
+            text-align: center;
+            padding: 0;
+            height: 100vh;
+            width: 100%;
+            background-color: none;
+
+        }
+        .six {
+            text-align: center;
+            padding: 20px;   
+            /* width: 100%; */
+        }
+        .six h4{
+            
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            background-color: #4F78CA;
+            padding-left: 20px;
+            padding-top: 20px;
+
+        }
+        .nine{
+            display: block;
+            overflow: hidden;
+            padding: 0px;
+            height: 100vh;
+            width: 100%;
+            margin: 0px;
+        }
+        .up{
+            padding: 10px;
+            padding-top: 15px;
+            height: auto;
+            margin: 10px;
+            width: auto;   
+            overflow: hidden;
+
+        }
+        .down{
+            padding: 10px;
+            padding-top: 15px;
+            height: auto;
+            margin: 10px;
+            width: auto;   
+        }
+        .form{
+            padding: 10px;
+            padding-top: 15px;
+            height: auto;
+            margin: 10px;
+            width: auto;  
+        
+        }
+        .ten{
+            height: auto;
+            margin: ;
+        }
+
+
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TEK- <span>KONNECT</span></h1>
+        <div>
+            <ul>
+                <li><a href="#homeMe">Home</a></li>
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#serviceMe">Service</a></li>
+            </ul>
+        </div>
+        
+       
+    </div>
+    <div class="one" id="homeMe">
+        <div class="two">
+            <h1>I Design <br> Your Dream <br> Website <br> <span class="three">I AM A WEB DESIGNER</span> </h1>
+            <!-- <img src="/WhatsApp Image 2023-11-28 at 1.08.16 AM copy.jpeg" alt=""> -->
+            <h2 class="four">PORTFOLIO</h2>
+        </div>
+
+    </div>
+    <div class="five" id="aboutMe">
+        <div class="six">
+            <h3>ABOUT ME </h3>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Excepturi accusantium numquam quam. <br>Eligendi ullam voluptates quis impedit dicta nobis, distinctio <br> doloremque nam iste, molestiae, hic commodi! <br> Obcaecati numquam aliquam explicabo?</P>
+            <h4>DOWNLOAD RESUME </h4>
+        </div>
+        <div class="seven">
+            <img src="/picture 7700 copy.jpeg" alt="">
+        </div>
+
+
+    </div>
+    <div class="eight" id="serviceMe">
+        <div>
+            <strong>SERVICE</strong>
+            <p>I offer offer a top-notch professional digital services for varieties of <br> organization <br> ranging from schools, offices, religious organations, hospitals, Stores etc.</p>
+        </div>
+        <div class="nine">
+            <div class="up">
+                <h1>Web Design</h1>
+                <p>Building a fully responsive website is one of the <br> many skills i am trained for.</p>
+            </div>
+            <div class="down">
+                <h1>Coding</h1>
+                <p> I can write codes using HTML and CSS , i also use <br> programming language such as Javascript and <br> Python</p>
+            </div>
+            <div class="form">
+                <h1>Robotics  And Animation </h1>
+                <p>Building a fully responsive website is one of the <br> many skills i am trained for.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="ten">
+        <div class="hire">
+            <h5>Hire me to build your dream website</h5>
+            <h6><a href="">HIRE ME !!</a></h6>
+        </div>
+    </div>
+    <div class="con">
+        <div>
+            <h1>YOU CAN REACH OUT TO ME</h1>
+            <p>Email: tekkonect7700@gmail.com</p>
+            <p>Moblie: +2348181548510</p>
+
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
